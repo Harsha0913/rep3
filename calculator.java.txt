@@ -1,6 +1,3 @@
-
-//this_is_the_program_of_calculator
-
 import java.util.Scanner;
 
 class Main {
@@ -8,6 +5,8 @@ class Main {
 
     char operator;
     Double number1, number2, result;
+    
+    System.out.println(" MODIFIED VERSION OF CALCULATOR.JAVA FILE");
 
     // create an object of Scanner class
     Scanner input = new Scanner(System.in);
@@ -43,18 +42,11 @@ class Main {
         System.out.println(number1 + " * " + number2 + " = " + result);
         break;
 	
-     //PERFORM a power b
-     case '**':
-        result= number1**number2;
-	Sysstem.out.printl(number1+"**"+number2 +" = " +result);
-	
      case '#':
         system.exit(0);
-	break;
+        break;
 
-
-      default:
-        System.out.println("Invalid operator!");
+em.out.println("Invalid operator!");
         break;
     }
 
