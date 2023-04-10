@@ -1,3 +1,4 @@
+//now_im_going_to_add_DIVISION_MODULE
 import java.util.Scanner;
 
 class Main {
@@ -12,7 +13,7 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *,**);
+    System.out.println("Choose an operator: +, -, *,#);
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
@@ -42,6 +43,13 @@ class Main {
         System.out.println(number1 + " * " + number2 + " = " + result);
         break;
 	
+     
+     //performing DIVISION MODULE {CLONING}
+     case '/';
+        reult=number1/number2;
+	System.out.println(number1 +" / " +number2 + " = " +result);
+	break;
+
      case '#':
         system.exit(0);
         break;
